@@ -6,8 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "vuepress build .",
+    "postbuild": "yarn check-local-dead-links",
     "dev": "vuepress dev",
-    "check-links": "vuepress check-md ."
+    "check-links": "vuepress check-md .",
+    "check-local-dead-links": "LOCAL=true node .vuepress/externUrlChecker.js",
+    "check-dead-links": "node .vuepress/externUrlChecker.js"
   },
   "repository": {
     "type": "git",
@@ -28,7 +31,10 @@
     "vuepress-plugin-sitemap": "^2.3.1"
   },
   "devDependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "esm": "^3.2.25",
     "vuepress-plugin-check-md": "^0.0.2",
-    "vuepress-plugin-element-tabs": "^0.2.8"
+    "vuepress-plugin-element-tabs": "^0.2.8",
+    "xml2js": "^0.4.23"
   }
 }

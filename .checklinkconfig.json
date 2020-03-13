@@ -1,0 +1,14 @@
+{
+    "hostname" : "docs.meilisearch.com",
+    "links" : [
+        "https://github.com/meilisearch/meilisearch-python/blob/master/README.md",
+        "https://github.com/meilisearch/meilisearch/blob/master/README.md",
+        "https://github.com/meilisearch/meilisearch-ruby/blob/master/README.md",
+        "https://github.com/meilisearch/meilisearch-php/blob/master/README.md",
+        "https://github.com/meilisearch/meilisearch-js/blob/master/README.md",
+        "https://github.com/meilisearch/meilisearch-java/blob/master/README.md",
+        "https://github.com/meilisearch/meilisearch-go/blob/master/readme.md",
+        "https://github.com/meilisearch/finding-rubygems/blob/master/README.md",
+        "https://www.meilisearch.com/"
+    ]
+}
